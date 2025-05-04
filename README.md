@@ -35,8 +35,8 @@ This application uses **Convolutional Neural Networks (CNN)** to predict **Polyc
 
 ```bash
 # 1. Clone this repo
-git clone https://github.com/putriangels/pcos-cnn-app.git
-cd pcos-cnn-app
+git clone https://github.com/putriangels/pcos-prediction-app.git
+cd pcos-prediction-app
 
 # 2. Install dependencies
 pip install -r requirements.txt
