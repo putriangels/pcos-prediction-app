@@ -1,0 +1,109 @@
+body {
+  background-color: #ffedfa;
+}
+.main {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.stButton > button {
+  background-color: #ec7fa9;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0px 3px 8px rgba(236, 127, 169, 0.3);
+}
+.stButton > button:hover {
+  background-color: #d86e97;
+  color: #fff;
+  transform: scale(1.03);
+  box-shadow: 0 4px 10px rgba(236, 127, 169, 0.4);
+}
+.result-card {
+  background: linear-gradient(145deg, #ffe3ef, #ffd6ec);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(190, 89, 133, 0.2);
+  text-align: center;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  animation: fadeIn 0.6s ease-in-out;
+}
+.result-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 24px rgba(190, 89, 133, 0.3);
+}
+.result-card h2 {
+  font-size: 26px;
+  font-weight: 800;
+  color: #be5985;
+  margin: 0;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.cute-subtitle {
+  font-size: 18px;
+  color: #be5985;
+  text-align: center;
+}
+.stSidebar .stButton > button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+}
+section[data-testid="stSidebar"] {
+  background: linear-gradient(135deg, #ffedf7, #ffe1f0);
+  padding: 30px 20px;
+  border-right: 2px solid #f9cfe3;
+}
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3 {
+  color: #be5985;
+  text-align: center;
+}
+.stSelectbox > div {
+  background-color: white;
+  border: 2px solid #ec7fa9;
+  border-radius: 10px;
+  padding: 5px;
+}
+.stSidebar .stButton > button {
+  background-color: #ec7fa9;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+}
+.stSidebar .stButton > button:hover {
+  background-color: #d86e97;
+  color: #fff;
+  transform: scale(1.03);
+  box-shadow: 0 4px 10px rgba(236, 127, 169, 0.4);
+}
+section[data-testid="stSidebar"] hr {
+  border: 1px dashed #ec7fa9;
+  margin: 20px 0;
+}
