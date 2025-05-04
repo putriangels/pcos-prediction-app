@@ -1,7 +1,7 @@
-# 🩺 PCOS Detection using CNN on Ultrasound Images
+# 🩺 PCOS Prediction using CNN on Ultrasound Images
 
 [![Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-%23FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.12+-blue?logo=python)](https://www.python.org/)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 This application uses **Convolutional Neural Networks (CNN)** to predict **Polycystic Ovary Syndrome (PCOS)** from ovary ultrasound images. Built with **Streamlit**, it allows healthcare professionals and researchers to analyze images quickly and accurately.
